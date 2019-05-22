@@ -1,0 +1,4 @@
+*
+!*.tf
+!Gemfile
+!lib

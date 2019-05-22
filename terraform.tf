@@ -1,8 +1,8 @@
 terraform {
   backend s3 {
-    bucket  = "brutalismbot"
-    key     = "terraform/brutalismbot.tf"
-    region  = "us-east-1"
+    bucket = "brutalismbot"
+    key    = "terraform/brutalismbot.tf"
+    region = "us-east-1"
   }
 }
 
@@ -58,7 +58,7 @@ variable release {
 
 variable repo {
   description = "Project repository."
-  default     = "https://github.com/amancevice/brutalismbot"
+  default     = "https://github.com/brutalismbot/brutalismbot"
 }
 
 variable slack_client_id {
